@@ -19,7 +19,7 @@ setInterval(setRandomColors, 2000);
 // Show loader for 3 seconds, then show content
 setTimeout(() => {
   document.querySelector('.loader-container').style.display = 'none';
-  document.querySelectorAll('.item').forEach(el => el.style.visibility = 'visible');
+  document.querySelectorAll('.item').forEach(el => el.style.opacity = '1');
 }, 3000);
 
 
